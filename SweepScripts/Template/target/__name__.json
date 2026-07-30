@@ -1,0 +1,13 @@
+{
+    "design_path": "__designpath__",
+    "binder_name": "__name__-no_hotspot",
+    "starting_pdb": "__pdbfilepath__",
+    "full_target_structure": "__fulltargetstructure__",
+    "full_target_pae_json": "__fulltargetpaejson__",
+    "chains": "A",
+    "target_hotspot_residues": "",
+    "lengths": [
+        90
+    ],
+    "number_of_final_designs": "__number_of_final_designs__"
+}

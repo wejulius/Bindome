@@ -1,0 +1,13 @@
+{
+    "design_path": "./BindCraft/bindome_example/A0AV96_DOMAIN1_l126_crop-outputs",
+    "binder_name": "A0AV96_DOMAIN1_l126-no_hotspot",
+    "starting_pdb": "./BindCraft/bindome_example/A0AV96_DOMAIN1_l126_crop.pdb",
+    "full_target_structure": "./BindCraft/bindome_example/A0AV96.pdb",
+    "full_target_pae_json": "./BindCraft/bindome_example/A0AV96.pae.json",
+    "chains": "A",
+    "target_hotspot_residues": "",
+    "lengths": [
+        90
+    ],
+    "number_of_final_designs": 50
+}
