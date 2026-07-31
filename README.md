@@ -26,12 +26,10 @@ Step 1: Clone the repository
 git clone https://github.com/wejulius/Bindome.git
 ```
 
-Step 2: Install the conda environment and change permissions
+Step 2: Install the conda environment
 
 ```bash
 bash Bindome/BindCraft/install_bindcraft.sh --cuda '12.4' --pkg_manager 'conda'
-chmod +x Bindome/BindCraft/functions/DAlphaBall.gcc
-chmod +x Bindome/BindCraft/functions/dssp
 ```
 
 This creates a single `BindCraft` conda environment (ColabDesign, PyRosetta, JAX, biopython, requests, python-igraph, etc.) used to run our accelerated BindCraft framework, `TargetPreprocessing`, and `SweepScripts`. [env/leonardo-production-environment.yaml](env/leonardo-production-environment.yaml) is a pinned package list (`conda list`) of this environment as deployed in production on the Leonardo cluster — use it to diff against your own environment if you run into version-related issues.
@@ -48,7 +46,7 @@ Sets up the sweep file structure and submits/tracks the slurm array jobs that ru
 
 ## Citations
 
-TBA
+Wenckstern, J., Diaz-Rovira, A. M., et al. (2026). [The Human Bindome: A Proteome-scale Atlas of Designed Binder Candidates](https://doi.org/10.64898/2026.07.30.741542). bioRxiv. doi: 10.64898/2026.07.30.741542
 
 ## Acknowledgements
 
