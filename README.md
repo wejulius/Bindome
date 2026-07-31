@@ -2,8 +2,8 @@
 
 <a href="https://bindome.epfl.ch/static/index.html"><img src="assets/bindome_logo_transparent.png" alt="Bindome logo" width="200"></a>
 
-[Website](https://bindome.epfl.ch/static/index.html) •
-[HuggingFace](https://huggingface.co/datasets/wjulius/HumanBindome) • [MCP](https://bindome.epfl.ch/mcp) • [Beacons-API](https://bindome.epfl.ch/docs) • Preprint (tba)
+[Preprint](https://www.biorxiv.org/content/10.64898/2026.07.30.741542v1) • [Website](https://bindome.epfl.ch/static/index.html) •
+[HuggingFace](https://huggingface.co/datasets/wjulius/HumanBindome) • [MCP](https://bindome.epfl.ch/mcp) • [Beacons-API](https://bindome.epfl.ch/docs)
 
 ![Bindome banner](assets/grid_target_binder_complex_8x13.png)
 **Towards a protein binder candidate for every human protein**
