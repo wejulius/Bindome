@@ -9,7 +9,7 @@
 
 
 
-conda activate cluster_complement_4f
+conda activate BindCraft
 python /work/upcorreia/users/wenckste/Bindome/TargetPreprocessing/05_filter_domains_and_create_sweep_index.py
 
 echo "Done."

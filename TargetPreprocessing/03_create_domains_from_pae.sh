@@ -21,7 +21,7 @@ set -euo pipefail
 
 # Defaults (override by exporting env vars or passing args)
 SCRIPT_DIR=$(dirname "$0")
-PYTHON="${PYTHON:-/work/upcorreia/users/wenckste/miniconda3/envs/cluster_complement_4f/bin/python}"
+PYTHON="${PYTHON:-/work/upcorreia/users/wenckste/miniconda3/envs/BindCraft/bin/python}"
 SCRIPT="${SCRIPT:-${SCRIPT_DIR}/pae_to_domains/pae_to_domains.py}"
 DEFAULT_PAE_INPUT_DIR=${SCRIPT_DIR}/../Data/AFDB_v6/PAE
 DEFAULT_DOMAIN_OUTPUT_DIR=${SCRIPT_DIR}/../Data/AFDB_v6/CSV_Domains

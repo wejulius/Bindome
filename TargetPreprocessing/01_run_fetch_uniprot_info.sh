@@ -9,6 +9,6 @@
 
 
 
-conda activate cluster_complement_4f
+conda activate BindCraft
 python /work/upcorreia/users/wenckste/Bindome/TargetPreprocessing/01_fetch_uniprot_info.py
 

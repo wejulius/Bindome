@@ -10,6 +10,6 @@
 
 
 
-conda activate cluster_complement_4f
+conda activate BindCraft
 python /work/upcorreia/users/wenckste/Bindome/TargetPreprocessing/02_fetch_afdb_pdbs_and_pae.py
 
